@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2025 at 09:12 AM
+-- Generation Time: Jun 17, 2025 at 09:39 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -67,11 +67,45 @@ CREATE TABLE `assign` (
   `id` int(11) NOT NULL,
   `teacher_id` int(11) NOT NULL,
   `subject_id` int(11) NOT NULL,
-  `student_type` enum('Regular','STI','Both') NOT NULL,
   `grade_level` int(11) NOT NULL,
   `section` varchar(100) NOT NULL,
   `assigned_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `student_type` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `assign`
+--
+
+INSERT INTO `assign` (`id`, `teacher_id`, `subject_id`, `grade_level`, `section`, `assigned_at`, `created_at`, `student_type`) VALUES
+(61, 1, 14, 7, 'Mangga', '2025-06-17 07:27:23', '2025-06-17 07:27:23', 'Regular Student');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `assigned_grade_subjects`
+--
+
+CREATE TABLE `assigned_grade_subjects` (
+  `id` int(11) NOT NULL,
+  `subject_id` int(11) NOT NULL,
+  `student_type` varchar(10) NOT NULL,
+  `grade_level` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `assigned_subjects`
+--
+
+CREATE TABLE `assigned_subjects` (
+  `id` int(11) NOT NULL,
+  `subject_id` int(11) NOT NULL,
+  `teacher_id` int(11) NOT NULL,
+  `student_type` enum('Regular','STI','Both') NOT NULL,
+  `created_at` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -150,6 +184,18 @@ CREATE TABLE `pending_students` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `school_years`
+--
+
+CREATE TABLE `school_years` (
+  `id` int(11) NOT NULL,
+  `year` varchar(20) DEFAULT NULL,
+  `is_current` tinyint(1) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `students`
 --
 
@@ -189,11 +235,7 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `first_name`, `middle_name`, `last_name`, `lrn`, `date_of_birth`, `gender`, `citizenship`, `address`, `contact_number`, `email`, `guardian_name`, `guardian_contact`, `guardian_address`, `guardian_relationship`, `elementary_school`, `year_graduated`, `birth_certificate`, `id_photo`, `good_moral`, `student_signature`, `section`, `school_year`, `grade_level`, `student_type`, `verified_at`, `created_at`, `rfid`) VALUES
-(104, 'bv', 'nv', 'nf', '100000000088', '2025-06-06', 'Male', 'Filipino', 'Purok2, Narra Street, Casibarag Sur, Cabagan, Isabela', '09943528909', 'fernandez11167@gmail.com', 'Elmarie Cataggatan', '09111239878', 'Purok 3, Narra Street, Pilig Alto, Cabagan, Isabela', 'Mother', 'CSES', '2016', 'uploads/68450343c8c9e_birth_certificate.jpg', 'uploads/68450343cf613_id_photo.jpg', 'uploads/68450343d572e_good_moral.jpg', 'uploads/68450343dc0ab_student_signature.jpg', 'mabin', '2025-2029', 'Grade 10', 'STI Student', '2025-06-10 02:51:42', '2025-06-10 02:51:42', NULL),
-(109, 'cs', 'sc', 'cs', '130000001100', '2025-06-04', 'Female', 'Filipino', 'Purok2, Narra Street, Casibarag Sur, Cabagan, Isabela', '12345678912', 'marvitayadan@gmail.com', 'Genalyn Fernandez', '09907812456', 'Purok 2, Narra Street, Casibarag Sur, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2016', 'uploads/6845030e2795d_birth_certificate.jpg', 'uploads/6845030e2db96_id_photo.jpg', 'uploads/6845030e3435d_good_moral.png', 'uploads/6845030e34805_student_signature.jpg', 'mabin', '2025-2029', 'Grade 10', 'STI Student', '2025-06-10 03:11:06', '2025-06-10 03:11:06', NULL),
-(110, 'Marvita', 'Mallillin', 'Cataggatan', '111111111111', '2025-06-05', 'Male', 'Filipino', 'Casibarag Sur, Cabagan, Isabela', '09111111111', 'cataggatanel2004@outlook.com', 'Genalyn Fernandez', '09111111111', 'Casibarag Sur, Cabagan, Isabela', 'Mother', 'CSES', '2016', 'uploads/684b8eee05351_birth_certificate.jpg', 'uploads/684b8eee082b3_id_photo.jpg', 'uploads/684b8eee0abb2_good_moral.jpg', 'uploads/684b8eee0c35c_student_signature.jpg', 'Jasmine', '2024-2028', 'Grade 7', 'STI Student', '2025-06-13 02:37:50', '2025-06-13 02:37:50', NULL),
-(111, 'April Joy', 'Macapia', 'talaue', '100000000011', '2025-06-09', 'Male', 'Filipino', 'Purok 1, San Antonio, Cabagan, Isabela', '09659837951', 'fernandez@gmail.com', 'Elmarie Cataggatan', '09907812456', 'Casibarag Sur, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2016', 'uploads/684bad2c70cd0_birth_certificate.jpg', 'uploads/684bad2c75b40_id_photo.jpg', 'uploads/684bad2c79d65_good_moral.png', 'uploads/684bad2c7aabc_student_signature.jpg', 'Mangga', '2023-2026', 'Grade 8', 'Regular Student', '2025-06-13 04:46:52', '2025-06-13 04:46:52', NULL),
-(115, 'April Joy', 'Maca', 'Cataggatan', '136741121489', '2025-06-28', 'Female', 'Filipino', 'Purok 2, Narra Street, Casibarag Sur, Cabagan, Isabela', '09943528909', 'marvita123@gmail.com', 'Jasmine Cataggatan', '09111239878', 'Purok 3, Kalamagi Street, Pilig Alto, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2016', 'uploads/6844f72256baf_birth_certificate.jpg', 'uploads/6844f7225cf37_id_photo.jpg', 'uploads/6844f72262bda_good_moral.png', 'uploads/6844f7226304e_student_signature.jpg', 'Mabango', '2025-2029', 'Grade 8', 'Regular Student', '2025-06-16 00:53:58', '2025-06-16 00:53:58', NULL);
+(116, 'Marvita', 'Mallillin', 'Yadan', '102222222221', '2025-06-06', 'Female', 'Filipino', 'Purok2, Narra Street, Casibarag Sur, Cabagan, Isabela', '09111111111', 'marvita.2003@gmail.com', 'Jasmine Cataggatan', '09111111111', 'Purok2, Narra Street, Casibarag Sur, Cabagan, Isabela', 'Mother', 'CSES', '2016', 'uploads/685118294a77a_birth_certificate.jpg', 'uploads/685118294b71d_id_photo.jpg', 'uploads/685118294c033_good_moral.png', 'uploads/685118294c868_student_signature.jpg', 'Mangga', '2024-2028', 'Grade 7', 'Regular Student', '2025-06-17 07:24:44', '2025-06-17 07:24:44', NULL);
 
 -- --------------------------------------------------------
 
@@ -218,8 +260,19 @@ INSERT INTO `subjects` (`id`, `subject_name`, `student_type`, `created_at`) VALU
 (12, 'English', 'Regular Student', '2025-06-13 01:48:11'),
 (13, 'Mapeh', 'STI Student', '2025-06-13 01:52:57'),
 (14, 'P.e', 'Regular Student', '2025-06-13 03:37:39'),
-(15, 'PP', 'STI Student', '2025-06-13 03:40:23'),
-(16, 'as', 'Regular Student', '2025-06-15 00:24:41');
+(15, 'PP', 'STI Student', '2025-06-13 03:40:23');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `subject_teacher`
+--
+
+CREATE TABLE `subject_teacher` (
+  `id` int(11) NOT NULL,
+  `subject_id` int(11) NOT NULL,
+  `teacher_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -320,7 +373,7 @@ ALTER TABLE `archived_students`
 -- AUTO_INCREMENT for table `assign`
 --
 ALTER TABLE `assign`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
 -- AUTO_INCREMENT for table `enrollments`
@@ -338,13 +391,13 @@ ALTER TABLE `faculty`
 -- AUTO_INCREMENT for table `pending_students`
 --
 ALTER TABLE `pending_students`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89;
 
 --
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=116;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=117;
 
 --
 -- AUTO_INCREMENT for table `subjects`
