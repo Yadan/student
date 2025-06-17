@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2025 at 02:01 AM
+-- Generation Time: Jun 17, 2025 at 09:12 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -24,46 +24,55 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `assigned_grade_subjects`
+-- Table structure for table `archived_students`
 --
 
-CREATE TABLE `assigned_grade_subjects` (
+CREATE TABLE `archived_students` (
   `id` int(11) NOT NULL,
-  `subject_id` int(11) NOT NULL,
-  `student_type` varchar(10) NOT NULL,
-  `grade_level` int(11) NOT NULL
+  `rfid` varchar(50) DEFAULT NULL,
+  `lrn` varchar(20) NOT NULL,
+  `first_name` varchar(100) DEFAULT NULL,
+  `middle_name` varchar(100) DEFAULT NULL,
+  `last_name` varchar(100) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `section` varchar(50) NOT NULL,
+  `student_type` varchar(50) NOT NULL,
+  `gender` varchar(10) DEFAULT NULL,
+  `date_of_birth` date DEFAULT NULL,
+  `contact_number` varchar(20) DEFAULT NULL,
+  `address` text DEFAULT NULL,
+  `citizenship` varchar(50) DEFAULT NULL,
+  `elementary_school` varchar(150) DEFAULT NULL,
+  `year_graduated` varchar(10) DEFAULT NULL,
+  `guardian_name` varchar(100) DEFAULT NULL,
+  `guardian_contact` varchar(20) DEFAULT NULL,
+  `guardian_address` text DEFAULT NULL,
+  `guardian_relationship` varchar(50) DEFAULT NULL,
+  `birth_certificate` varchar(255) DEFAULT NULL,
+  `id_photo` varchar(255) DEFAULT NULL,
+  `good_moral` varchar(255) DEFAULT NULL,
+  `student_signature` varchar(255) DEFAULT NULL,
+  `grade_level` varchar(10) DEFAULT NULL,
+  `school_year` varchar(20) DEFAULT NULL,
+  `date_archived` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `assigned_grade_subjects`
---
-
-INSERT INTO `assigned_grade_subjects` (`id`, `subject_id`, `student_type`, `grade_level`) VALUES
-(1, 5, 'Regular', 7),
-(3, 5, 'Regular', 10),
-(2, 6, 'Regular', 7),
-(4, 6, 'Regular', 10);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `assigned_subjects`
+-- Table structure for table `assign`
 --
 
-CREATE TABLE `assigned_subjects` (
+CREATE TABLE `assign` (
   `id` int(11) NOT NULL,
-  `subject_id` int(11) NOT NULL,
   `teacher_id` int(11) NOT NULL,
+  `subject_id` int(11) NOT NULL,
   `student_type` enum('Regular','STI','Both') NOT NULL,
-  `created_at` datetime DEFAULT current_timestamp()
+  `grade_level` int(11) NOT NULL,
+  `section` varchar(100) NOT NULL,
+  `assigned_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `assigned_subjects`
---
-
-INSERT INTO `assigned_subjects` (`id`, `subject_id`, `teacher_id`, `student_type`, `created_at`) VALUES
-(3, 6, 1, 'Regular', '2025-04-17 19:10:08');
 
 -- --------------------------------------------------------
 
@@ -99,7 +108,9 @@ CREATE TABLE `faculty` (
 --
 
 INSERT INTO `faculty` (`id`, `teacher_id`, `name`, `email`, `contact`, `dob`, `password`) VALUES
-(1, '252480', 'Kha', 'jaylinfernandez03@gmail.com', '123456782', '2025-04-12', '$2y$10$SsufId.xA5SNjxL.4IIFnOzDo5ybaY7loQdu/YAhXX2h7IpS1VnSe');
+(1, '252480', 'Kha', 'jaylinfernandez03@gmail.com', '123456782', '2025-04-12', '$2y$10$SsufId.xA5SNjxL.4IIFnOzDo5ybaY7loQdu/YAhXX2h7IpS1VnSe'),
+(2, '251413', 'Mar', 'marvita.2003123@gmail.com', '09789643345', '2025-06-10', '$2y$10$tEZXLva9ZivQN1RGPIWa7.Cpp2nN7vaHYzZ5TBflQqzefFYVDn7lu'),
+(3, '257457', 'Yadan', 'ataggatanel2004@outlook.com', '09789643345', '2025-06-05', '$2y$10$Yhz9BtljjxeNaspC0PcFfe.7d6WMfd9nOZkoQGELhZCkZKL.js4QW');
 
 -- --------------------------------------------------------
 
@@ -136,28 +147,6 @@ CREATE TABLE `pending_students` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `pending_students`
---
-
-INSERT INTO `pending_students` (`id`, `first_name`, `middle_name`, `last_name`, `lrn`, `date_of_birth`, `gender`, `citizenship`, `address`, `contact_number`, `email`, `section`, `school_year`, `grade_level`, `student_type`, `guardian_name`, `guardian_contact`, `guardian_address`, `guardian_relationship`, `elementary_school`, `year_graduated`, `birth_certificate`, `id_photo`, `good_moral`, `student_signature`, `created_at`) VALUES
-(55, 'Marvita', 'Mallillin', 'Yadan', '136741121481', '2003-05-13', 'Female', 'Filipino', 'Purok 2, Narra Street, Casibarag Sur, Cabagan, Isabela', '09943528909', 'marvita.2003@gmail.com', 'Mabini', '2024-2028', 'Grade 7', 'Regular Student', 'Flordeliza Yadan', '09943528908', 'Purok 2, Narra Street, Casibarag Sur, Cabagan, Isabela', 'Mother', 'Cabagan Science Elementary School', '2010', 'uploads/68044c2cc600d_birth_certificate.jpg', 'uploads/68044c2cc7206_id_photo.jpg', 'uploads/68044c2cc7fd1_good_moral.jpg', 'uploads/68044c2cc95ca_student_signature.jpg', '2025-04-19 19:21:48'),
-(56, 'Jaylin', 'Dela Cruz', 'Fernandez', '136741121482', '2003-10-24', 'Female', 'Filipino', 'Purok 3, Narra Street, Pilig Alto, Cabagan, Isabela', '09659837951', 'fernandez@gmail.com', 'Mangga', '2024-2028', 'Grade 7', 'Regular Student', 'Genalyn Fernandez', '09659837952', 'Purok 3, Narra Street, Pilig Alto, Cabagan, Isabela', 'Mother', 'Pilig Alto Elementary School', '2010', 'uploads/68044cf8d491d_birth_certificate.png', 'uploads/68044cf8d4bd3_id_photo.jpg', 'uploads/68044cf8d58b2_good_moral.png', 'uploads/68044cf8d5b95_student_signature.png', '2025-04-19 19:25:12'),
-(57, 'Joyce', 'Maca', 'Baquiran', '136741121483', '2003-08-03', 'Female', 'Filipino', 'Purok 3, Kalamagi Street, Pilig Alto, Cabagan, Isabela', '09111239807', 'joyce@gmail.com', 'Mangga', '2024-2028', 'Grade 7', 'STI', 'Mathilda Baquiran', '09111239878', 'Purok 3, Kalamagi Street, Pilig Alto, Cabagan, Isabela', 'Mother', 'Pilig Alto Elementary School', '2010', 'uploads/68044dac6141a_birth_certificate.png', 'uploads/68044dac61a5d_id_photo.jpg', 'uploads/68044dac62a2e_good_moral.png', 'uploads/68044dac62d33_student_signature.png', '2025-04-19 19:28:12'),
-(58, 'Elmarie', 'Macapia', 'Cataggatan', '136741121484', '2003-04-01', 'Female', 'Filipino', 'Purok 1, San Antonio, Cabagan, Isabela', '09907812556', 'elmariecataggatan@gmail.com', 'Mangga', '2024-2028', 'Grade 7', 'STI', 'Jasmine Cataggatan', '09907812456', 'Purok 1, San Antonio, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2010', 'uploads/68044e86c0cbb_birth_certificate.png', 'uploads/68044e86c0f5d_id_photo.jpg', 'uploads/68044e86c61ab_good_moral.png', 'uploads/68044e86c67c9_student_signature.png', '2025-04-19 19:31:50');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `school_years`
---
-
-CREATE TABLE `school_years` (
-  `id` int(11) NOT NULL,
-  `year` varchar(20) DEFAULT NULL,
-  `is_current` tinyint(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 -- --------------------------------------------------------
 
 --
@@ -189,12 +178,22 @@ CREATE TABLE `students` (
   `section` varchar(50) DEFAULT NULL,
   `school_year` varchar(9) NOT NULL,
   `grade_level` varchar(20) DEFAULT NULL,
-  `student_type` varchar(50) NOT NULL,
+  `student_type` enum('Regular Student','STI Student') DEFAULT NULL,
   `verified_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  `rfid` varchar(50) DEFAULT NULL,
-  `promotion_status` varchar(50) DEFAULT NULL
+  `rfid` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `students`
+--
+
+INSERT INTO `students` (`id`, `first_name`, `middle_name`, `last_name`, `lrn`, `date_of_birth`, `gender`, `citizenship`, `address`, `contact_number`, `email`, `guardian_name`, `guardian_contact`, `guardian_address`, `guardian_relationship`, `elementary_school`, `year_graduated`, `birth_certificate`, `id_photo`, `good_moral`, `student_signature`, `section`, `school_year`, `grade_level`, `student_type`, `verified_at`, `created_at`, `rfid`) VALUES
+(104, 'bv', 'nv', 'nf', '100000000088', '2025-06-06', 'Male', 'Filipino', 'Purok2, Narra Street, Casibarag Sur, Cabagan, Isabela', '09943528909', 'fernandez11167@gmail.com', 'Elmarie Cataggatan', '09111239878', 'Purok 3, Narra Street, Pilig Alto, Cabagan, Isabela', 'Mother', 'CSES', '2016', 'uploads/68450343c8c9e_birth_certificate.jpg', 'uploads/68450343cf613_id_photo.jpg', 'uploads/68450343d572e_good_moral.jpg', 'uploads/68450343dc0ab_student_signature.jpg', 'mabin', '2025-2029', 'Grade 10', 'STI Student', '2025-06-10 02:51:42', '2025-06-10 02:51:42', NULL),
+(109, 'cs', 'sc', 'cs', '130000001100', '2025-06-04', 'Female', 'Filipino', 'Purok2, Narra Street, Casibarag Sur, Cabagan, Isabela', '12345678912', 'marvitayadan@gmail.com', 'Genalyn Fernandez', '09907812456', 'Purok 2, Narra Street, Casibarag Sur, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2016', 'uploads/6845030e2795d_birth_certificate.jpg', 'uploads/6845030e2db96_id_photo.jpg', 'uploads/6845030e3435d_good_moral.png', 'uploads/6845030e34805_student_signature.jpg', 'mabin', '2025-2029', 'Grade 10', 'STI Student', '2025-06-10 03:11:06', '2025-06-10 03:11:06', NULL),
+(110, 'Marvita', 'Mallillin', 'Cataggatan', '111111111111', '2025-06-05', 'Male', 'Filipino', 'Casibarag Sur, Cabagan, Isabela', '09111111111', 'cataggatanel2004@outlook.com', 'Genalyn Fernandez', '09111111111', 'Casibarag Sur, Cabagan, Isabela', 'Mother', 'CSES', '2016', 'uploads/684b8eee05351_birth_certificate.jpg', 'uploads/684b8eee082b3_id_photo.jpg', 'uploads/684b8eee0abb2_good_moral.jpg', 'uploads/684b8eee0c35c_student_signature.jpg', 'Jasmine', '2024-2028', 'Grade 7', 'STI Student', '2025-06-13 02:37:50', '2025-06-13 02:37:50', NULL),
+(111, 'April Joy', 'Macapia', 'talaue', '100000000011', '2025-06-09', 'Male', 'Filipino', 'Purok 1, San Antonio, Cabagan, Isabela', '09659837951', 'fernandez@gmail.com', 'Elmarie Cataggatan', '09907812456', 'Casibarag Sur, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2016', 'uploads/684bad2c70cd0_birth_certificate.jpg', 'uploads/684bad2c75b40_id_photo.jpg', 'uploads/684bad2c79d65_good_moral.png', 'uploads/684bad2c7aabc_student_signature.jpg', 'Mangga', '2023-2026', 'Grade 8', 'Regular Student', '2025-06-13 04:46:52', '2025-06-13 04:46:52', NULL),
+(115, 'April Joy', 'Maca', 'Cataggatan', '136741121489', '2025-06-28', 'Female', 'Filipino', 'Purok 2, Narra Street, Casibarag Sur, Cabagan, Isabela', '09943528909', 'marvita123@gmail.com', 'Jasmine Cataggatan', '09111239878', 'Purok 3, Kalamagi Street, Pilig Alto, Cabagan, Isabela', 'Mother', 'San Antonio Elementary School', '2016', 'uploads/6844f72256baf_birth_certificate.jpg', 'uploads/6844f7225cf37_id_photo.jpg', 'uploads/6844f72262bda_good_moral.png', 'uploads/6844f7226304e_student_signature.jpg', 'Mabango', '2025-2029', 'Grade 8', 'Regular Student', '2025-06-16 00:53:58', '2025-06-16 00:53:58', NULL);
 
 -- --------------------------------------------------------
 
@@ -205,7 +204,7 @@ CREATE TABLE `students` (
 CREATE TABLE `subjects` (
   `id` int(11) NOT NULL,
   `subject_name` varchar(255) NOT NULL,
-  `student_type` enum('Regular','STI','Both') NOT NULL,
+  `student_type` enum('Regular Student','STI Student','Both') NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -214,20 +213,13 @@ CREATE TABLE `subjects` (
 --
 
 INSERT INTO `subjects` (`id`, `subject_name`, `student_type`, `created_at`) VALUES
-(5, 'Filipino', 'Regular', '2025-04-17 10:28:45'),
-(6, 'P.e', 'Regular', '2025-04-17 10:28:45');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `subject_teacher`
---
-
-CREATE TABLE `subject_teacher` (
-  `id` int(11) NOT NULL,
-  `subject_id` int(11) NOT NULL,
-  `teacher_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+(8, 'Math', 'Both', '2025-06-11 00:06:42'),
+(10, 'Makabansa', 'Both', '2025-06-12 08:59:03'),
+(12, 'English', 'Regular Student', '2025-06-13 01:48:11'),
+(13, 'Mapeh', 'STI Student', '2025-06-13 01:52:57'),
+(14, 'P.e', 'Regular Student', '2025-06-13 03:37:39'),
+(15, 'PP', 'STI Student', '2025-06-13 03:40:23'),
+(16, 'as', 'Regular Student', '2025-06-15 00:24:41');
 
 -- --------------------------------------------------------
 
@@ -256,19 +248,18 @@ INSERT INTO `users` (`id`, `username`, `password`, `role`, `created_at`) VALUES
 --
 
 --
--- Indexes for table `assigned_grade_subjects`
+-- Indexes for table `archived_students`
 --
-ALTER TABLE `assigned_grade_subjects`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `subject_id` (`subject_id`,`student_type`,`grade_level`);
+ALTER TABLE `archived_students`
+  ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `assigned_subjects`
+-- Indexes for table `assign`
 --
-ALTER TABLE `assigned_subjects`
+ALTER TABLE `assign`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `subject_id` (`subject_id`),
-  ADD KEY `teacher_id` (`teacher_id`);
+  ADD KEY `teacher_id` (`teacher_id`),
+  ADD KEY `subject_id` (`subject_id`);
 
 --
 -- Indexes for table `enrollments`
@@ -294,12 +285,6 @@ ALTER TABLE `pending_students`
   ADD UNIQUE KEY `email` (`email`);
 
 --
--- Indexes for table `school_years`
---
-ALTER TABLE `school_years`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `students`
 --
 ALTER TABLE `students`
@@ -315,14 +300,6 @@ ALTER TABLE `subjects`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `subject_teacher`
---
-ALTER TABLE `subject_teacher`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `subject_id` (`subject_id`),
-  ADD KEY `teacher_id` (`teacher_id`);
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -334,16 +311,16 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `assigned_grade_subjects`
+-- AUTO_INCREMENT for table `archived_students`
 --
-ALTER TABLE `assigned_grade_subjects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `archived_students`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
--- AUTO_INCREMENT for table `assigned_subjects`
+-- AUTO_INCREMENT for table `assign`
 --
-ALTER TABLE `assigned_subjects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+ALTER TABLE `assign`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- AUTO_INCREMENT for table `enrollments`
@@ -355,37 +332,25 @@ ALTER TABLE `enrollments`
 -- AUTO_INCREMENT for table `faculty`
 --
 ALTER TABLE `faculty`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `pending_students`
 --
 ALTER TABLE `pending_students`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
-
---
--- AUTO_INCREMENT for table `school_years`
---
-ALTER TABLE `school_years`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
 
 --
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=116;
 
 --
 -- AUTO_INCREMENT for table `subjects`
 --
 ALTER TABLE `subjects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
---
--- AUTO_INCREMENT for table `subject_teacher`
---
-ALTER TABLE `subject_teacher`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `users`
@@ -398,11 +363,11 @@ ALTER TABLE `users`
 --
 
 --
--- Constraints for table `assigned_subjects`
+-- Constraints for table `assign`
 --
-ALTER TABLE `assigned_subjects`
-  ADD CONSTRAINT `assigned_subjects_ibfk_1` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`id`),
-  ADD CONSTRAINT `assigned_subjects_ibfk_2` FOREIGN KEY (`teacher_id`) REFERENCES `faculty` (`id`);
+ALTER TABLE `assign`
+  ADD CONSTRAINT `assign_ibfk_1` FOREIGN KEY (`teacher_id`) REFERENCES `faculty` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `assign_ibfk_2` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`id`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `enrollments`
@@ -410,13 +375,6 @@ ALTER TABLE `assigned_subjects`
 ALTER TABLE `enrollments`
   ADD CONSTRAINT `enrollments_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`id`),
   ADD CONSTRAINT `enrollments_ibfk_2` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`id`);
-
---
--- Constraints for table `subject_teacher`
---
-ALTER TABLE `subject_teacher`
-  ADD CONSTRAINT `subject_teacher_ibfk_1` FOREIGN KEY (`subject_id`) REFERENCES `subjects` (`id`),
-  ADD CONSTRAINT `subject_teacher_ibfk_2` FOREIGN KEY (`teacher_id`) REFERENCES `faculty` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
