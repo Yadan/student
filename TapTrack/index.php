@@ -5,8 +5,8 @@ include 'db_connection.php';
 $error = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = trim($_POST['username']); // LRN or system username
-    $password = trim($_POST['password']); // MMDDYYYY or system password
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
 
     if (preg_match('/^\d{12}$/', $username)) {
         // 🌟 Student login
@@ -18,14 +18,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($result->num_rows === 1) {
             $student = $result->fetch_assoc();
             $dob_db = $student['date_of_birth'];
-
-            // Convert YYYY-MM-DD to MMDDYYYY
             $dob_formatted = date("mdY", strtotime($dob_db));
 
             if ($password === $dob_formatted) {
                 $_SESSION['student_id'] = $student['id'];
                 $_SESSION['lrn'] = $student['lrn'];
                 $_SESSION['student_name'] = $student['first_name'];
+                $_SESSION['just_logged_in'] = true;
 
                 header("Location: student_portal.php");
                 exit();
@@ -38,31 +37,57 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $stmt->close();
     } else {
-        // 🌟 System user login (admin, counselor, etc.)
-        $stmt = $conn->prepare("SELECT id, username, password, role FROM users WHERE username = ?");
+        // 🌟 Teacher login (check if adviser)
+        $stmt = $conn->prepare("SELECT f.id, f.teacher_id, f.dob, f.name 
+                                FROM faculty f
+                                JOIN section_advisers sa ON sa.teacher_id = f.id
+                                WHERE f.teacher_id = ?");
         $stmt->bind_param("s", $username);
         $stmt->execute();
         $result = $stmt->get_result();
 
-        if ($result->num_rows == 1) {
-            $user = $result->fetch_assoc();
+        if ($result->num_rows === 1) {
+            $teacher = $result->fetch_assoc();
+            $dob_db = $teacher['dob'];
+            $dob_formatted = date("mdY", strtotime($dob_db));
 
-            if (password_verify($password, $user['password'])) {
-                $_SESSION['user_id'] = $user['id'];
-                $_SESSION['username'] = $user['username'];
-                $_SESSION['user_role'] = $user['role'];
+            if ($password === $dob_formatted) {
+                $_SESSION['teacher_id'] = $teacher['id'];
+                $_SESSION['teacher_name'] = $teacher['name'];
+                $_SESSION['just_logged_in'] = true;
 
-                if ($user['role'] === 'counselor') {
-                    header("Location: counselor_dashboard.php");
-                } else {
-                    header("Location: dashboard.php"); // admin, superadmin, etc.
-                }
+                header("Location: adviser_dashboard.php");
                 exit();
+            } else {
+                $error = "Invalid Teacher ID or birthday!";
+            }
+        } else {
+            // 🌟 System user login (admin/counselor)
+            $stmt = $conn->prepare("SELECT id, username, password, role FROM users WHERE username = ?");
+            $stmt->bind_param("s", $username);
+            $stmt->execute();
+            $result = $stmt->get_result();
+
+            if ($result->num_rows === 1) {
+                $user = $result->fetch_assoc();
+
+                if (password_verify($password, $user['password'])) {
+                    $_SESSION['user_id'] = $user['id'];
+                    $_SESSION['username'] = $user['username'];
+                    $_SESSION['user_role'] = $user['role'];
+
+                    if ($user['role'] === 'counselor') {
+                        header("Location: counselor_dashboard.php");
+                    } else {
+                        header("Location: dashboard.php");
+                    }
+                    exit();
+                } else {
+                    $error = "Invalid username or password!";
+                }
             } else {
                 $error = "Invalid username or password!";
             }
-        } else {
-            $error = "Invalid username or password!";
         }
 
         $stmt->close();
@@ -70,7 +95,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $conn->close();
 }
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
