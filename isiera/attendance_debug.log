@@ -1,0 +1,2319 @@
+[19-Jul-2025 10:57:43 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-12T16:57:41.678176","end_date":"2025-07-19T16:57:41.678176"}
+[19-Jul-2025 10:57:43 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-12T16:57:41.678176
+    [end_date] => 2025-07-19T16:57:41.678176
+)
+
+[19-Jul-2025 10:57:43 Europe/Berlin] ERROR: Missing required parameter: rfid
+[19-Jul-2025 10:57:45 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-19T00:00:00.000","end_date":"2025-07-19T16:57:43.681920"}
+[19-Jul-2025 10:57:45 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-19T00:00:00.000
+    [end_date] => 2025-07-19T16:57:43.681920
+)
+
+[19-Jul-2025 10:57:45 Europe/Berlin] ERROR: Missing required parameter: rfid
+[19-Jul-2025 11:00:49 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-19T00:00:00.000","end_date":"2025-07-19T17:00:47.502209"}
+[19-Jul-2025 11:00:49 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-19T00:00:00.000
+    [end_date] => 2025-07-19T17:00:47.502209
+)
+
+[19-Jul-2025 11:00:49 Europe/Berlin] ERROR: Missing required parameter: rfid
+[19-Jul-2025 11:02:53 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-19T00:00:00.000","end_date":"2025-07-19T17:02:51.759705"}
+[19-Jul-2025 11:02:53 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-19T00:00:00.000
+    [end_date] => 2025-07-19T17:02:51.759705
+)
+
+[19-Jul-2025 11:02:53 Europe/Berlin] Sanitized parameters - Teacher: 253520, Subject: 67, Section: 13, Start: 2025-07-19, End: 2025-07-19
+[19-Jul-2025 11:02:53 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[19-Jul-2025 11:03:00 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":55,"section_id":15,"start_date":"2025-07-19T00:00:00.000","end_date":"2025-07-19T17:02:59.095326"}
+[19-Jul-2025 11:03:00 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 55
+    [section_id] => 15
+    [start_date] => 2025-07-19T00:00:00.000
+    [end_date] => 2025-07-19T17:02:59.095326
+)
+
+[19-Jul-2025 11:03:00 Europe/Berlin] Sanitized parameters - Teacher: 253520, Subject: 55, Section: 15, Start: 2025-07-19, End: 2025-07-19
+[19-Jul-2025 11:03:00 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[19-Jul-2025 11:03:04 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-19T00:00:00.000","end_date":"2025-07-19T17:03:02.781027"}
+[19-Jul-2025 11:03:04 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-19T00:00:00.000
+    [end_date] => 2025-07-19T17:03:02.781027
+)
+
+[19-Jul-2025 11:03:04 Europe/Berlin] Sanitized parameters - Teacher: 253520, Subject: 67, Section: 13, Start: 2025-07-19, End: 2025-07-19
+[19-Jul-2025 11:03:04 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[26-Jul-2025 02:50:39 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":55,"section_id":15,"date":"2025-07-26T08:50:40.008028"}
+[26-Jul-2025 02:50:39 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 55
+    [section_id] => 15
+    [date] => 2025-07-26T08:50:40.008028
+)
+
+[26-Jul-2025 02:50:39 Europe/Berlin] ERROR: Missing required parameter: rfid
+[26-Jul-2025 02:51:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":55,"section_id":16,"date":"2025-07-26T08:51:15.576500"}
+[26-Jul-2025 02:51:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 55
+    [section_id] => 16
+    [date] => 2025-07-26T08:51:15.576500
+)
+
+[26-Jul-2025 02:51:15 Europe/Berlin] ERROR: Missing required parameter: rfid
+[26-Jul-2025 02:51:18 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":55,"section_id":16,"date":"2025-07-20T00:00:00.000Z"}
+[26-Jul-2025 02:51:18 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 55
+    [section_id] => 16
+    [date] => 2025-07-20T00:00:00.000Z
+)
+
+[26-Jul-2025 02:51:18 Europe/Berlin] ERROR: Missing required parameter: rfid
+[26-Jul-2025 02:51:20 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":55,"section_id":16,"date":"2025-07-19T00:00:00.000Z"}
+[26-Jul-2025 02:51:20 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 55
+    [section_id] => 16
+    [date] => 2025-07-19T00:00:00.000Z
+)
+
+[26-Jul-2025 02:51:20 Europe/Berlin] ERROR: Missing required parameter: rfid
+[26-Jul-2025 02:55:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":55,"section_id":15,"date":"2025-07-19T00:00:00.000Z"}
+[26-Jul-2025 02:55:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 55
+    [section_id] => 15
+    [date] => 2025-07-19T00:00:00.000Z
+)
+
+[26-Jul-2025 02:55:15 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 55, Section ID: 15, Date: 2025-07-19T00:00:00.000Z
+[26-Jul-2025 02:55:15 Europe/Berlin] Section name: St.Thomas
+[26-Jul-2025 02:55:15 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[26-Jul-2025 02:59:33 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T08:59:33.582381"}
+[26-Jul-2025 02:59:33 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T08:59:33.582381
+)
+
+[26-Jul-2025 02:59:33 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26T08:59:33.582381
+[26-Jul-2025 02:59:33 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 02:59:33 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[26-Jul-2025 03:00:25 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-19T00:00:00.000Z"}
+[26-Jul-2025 03:00:25 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-19T00:00:00.000Z
+)
+
+[26-Jul-2025 03:00:25 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-19T00:00:00.000Z
+[26-Jul-2025 03:00:25 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:00:25 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[26-Jul-2025 03:01:30 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 03:01:30 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 03:01:30 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26T00:00:00.000Z
+[26-Jul-2025 03:01:30 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:01:30 Europe/Berlin] ERROR: Teacher is not assigned to this subject-section combination
+[26-Jul-2025 03:08:52 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T09:08:52.960768"}
+[26-Jul-2025 03:08:52 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T09:08:52.960768
+)
+
+[26-Jul-2025 03:08:52 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:08:53 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:08:53 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:08:53 Europe/Berlin] Attendance records count: 1
+[26-Jul-2025 03:08:53 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":1,"total_students":2}}
+[26-Jul-2025 03:09:11 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T09:09:11.293418"}
+[26-Jul-2025 03:09:11 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T09:09:11.293418
+)
+
+[26-Jul-2025 03:09:11 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:09:11 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:09:11 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:09:11 Europe/Berlin] Attendance records count: 1
+[26-Jul-2025 03:09:11 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":1,"total_students":2}}
+[26-Jul-2025 03:11:44 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T09:11:44.289465"}
+[26-Jul-2025 03:11:44 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T09:11:44.289465
+)
+
+[26-Jul-2025 03:11:44 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:11:44 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:11:44 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:11:44 Europe/Berlin] Attendance records count: 1
+[26-Jul-2025 03:11:44 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":1,"total_students":2}}
+[26-Jul-2025 03:13:46 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:13:46 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:13:46 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:13:46 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:13:46 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:13:46 Europe/Berlin] Attendance records count: 1
+[26-Jul-2025 03:13:46 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":1,"total_students":2}}
+[26-Jul-2025 03:14:21 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-21"}
+[26-Jul-2025 03:14:21 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-21
+)
+
+[26-Jul-2025 03:14:21 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-21
+[26-Jul-2025 03:14:21 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:14:21 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:14:21 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:14:21 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-21","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:14:25 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-23"}
+[26-Jul-2025 03:14:25 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-23
+)
+
+[26-Jul-2025 03:14:25 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-23
+[26-Jul-2025 03:14:25 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:14:25 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:14:25 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:14:25 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-23","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:14:26 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-24"}
+[26-Jul-2025 03:14:26 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-24
+)
+
+[26-Jul-2025 03:14:26 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-24
+[26-Jul-2025 03:14:26 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:14:26 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:14:26 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:14:26 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-24","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:14:27 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:14:27 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:14:27 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:14:27 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:14:27 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:14:27 Europe/Berlin] Attendance records count: 1
+[26-Jul-2025 03:14:27 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":1,"total_students":2}}
+[26-Jul-2025 03:14:31 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-28"}
+[26-Jul-2025 03:14:31 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-28
+)
+
+[26-Jul-2025 03:14:31 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-28
+[26-Jul-2025 03:14:31 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:14:31 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:14:31 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:14:31 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-28","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:15:24 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:15:24 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:15:24 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:15:24 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:24 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:24 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:15:24 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:15:26 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25"}
+[26-Jul-2025 03:15:26 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25
+)
+
+[26-Jul-2025 03:15:26 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[26-Jul-2025 03:15:26 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:26 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:26 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:15:26 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:15:29 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:15:29 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:15:29 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:15:29 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:29 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:29 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:15:29 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:15:36 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25"}
+[26-Jul-2025 03:15:36 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25
+)
+
+[26-Jul-2025 03:15:36 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[26-Jul-2025 03:15:36 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:36 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:36 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:15:36 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:15:37 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-24"}
+[26-Jul-2025 03:15:37 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-24
+)
+
+[26-Jul-2025 03:15:37 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-24
+[26-Jul-2025 03:15:37 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:37 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:38 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:15:38 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-24","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:15:39 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:15:39 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:15:39 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:15:39 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:39 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:39 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:15:39 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:15:41 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-02"}
+[26-Jul-2025 03:15:41 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-02
+)
+
+[26-Jul-2025 03:15:41 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-02
+[26-Jul-2025 03:15:41 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:15:41 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:15:41 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:15:41 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-02","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:16:36 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-31"}
+[26-Jul-2025 03:16:36 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-31
+)
+
+[26-Jul-2025 03:16:36 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-31
+[26-Jul-2025 03:16:36 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:16:36 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:16:36 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:16:36 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-31","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:16:39 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-02"}
+[26-Jul-2025 03:16:39 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-02
+)
+
+[26-Jul-2025 03:16:39 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-02
+[26-Jul-2025 03:16:39 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:16:39 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:16:39 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:16:39 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-02","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:18:33 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:18:33 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:18:33 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:18:33 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:18:33 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:18:33 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:18:33 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:30:48 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:30:48 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:30:48 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:30:48 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:30:48 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:30:48 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:30:48 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:30:52 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25"}
+[26-Jul-2025 03:30:52 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25
+)
+
+[26-Jul-2025 03:30:52 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[26-Jul-2025 03:30:52 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:30:52 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:30:52 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:30:52 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:30:55 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-27"}
+[26-Jul-2025 03:30:55 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-27
+)
+
+[26-Jul-2025 03:30:55 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-27
+[26-Jul-2025 03:30:55 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:30:55 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:30:55 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 03:30:55 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-27","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 03:31:03 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:31:03 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:31:03 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:31:03 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:31:03 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:31:03 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:31:03 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:45:58 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26"}
+[26-Jul-2025 03:45:58 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26
+)
+
+[26-Jul-2025 03:45:58 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 03:45:58 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 03:45:58 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 03:45:58 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 03:45:58 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 03:58:22 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-26T00:00:00.000","end_date":"2025-07-26T09:58:22.969354"}
+[26-Jul-2025 03:58:22 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-26T00:00:00.000
+    [end_date] => 2025-07-26T09:58:22.969354
+)
+
+[26-Jul-2025 03:58:22 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 03:58:37 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-26T00:00:00.000","end_date":"2025-07-26T09:58:36.732030"}
+[26-Jul-2025 03:58:37 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-26T00:00:00.000
+    [end_date] => 2025-07-26T09:58:36.732030
+)
+
+[26-Jul-2025 03:58:37 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 03:59:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-26T00:00:00.000","end_date":"2025-07-26T09:59:15.688652"}
+[26-Jul-2025 03:59:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-26T00:00:00.000
+    [end_date] => 2025-07-26T09:59:15.688652
+)
+
+[26-Jul-2025 03:59:15 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 03:59:17 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-25T00:00:00.000","end_date":"2025-07-25T00:00:00.000Z"}
+[26-Jul-2025 03:59:17 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-25T00:00:00.000
+    [end_date] => 2025-07-25T00:00:00.000Z
+)
+
+[26-Jul-2025 03:59:17 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 03:59:18 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-26T00:00:00.000","end_date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 03:59:18 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-26T00:00:00.000
+    [end_date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 03:59:18 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 04:02:52 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-19T00:00:00.000Z","end_date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 04:02:52 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-19T00:00:00.000Z
+    [end_date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 04:02:52 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 04:03:24 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-26T00:00:00.000","end_date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 04:03:24 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-26T00:00:00.000
+    [end_date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 04:03:24 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 04:03:25 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-19T00:00:00.000Z","end_date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 04:03:25 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-19T00:00:00.000Z
+    [end_date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 04:03:25 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 04:03:27 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-06-26T00:00:00.000","end_date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 04:03:27 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-06-26T00:00:00.000
+    [end_date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 04:03:27 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 04:03:45 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-07-27T00:00:00.000","end_date":"2025-07-27T00:00:00.000Z"}
+[26-Jul-2025 04:03:45 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-07-27T00:00:00.000
+    [end_date] => 2025-07-27T00:00:00.000Z
+)
+
+[26-Jul-2025 04:03:45 Europe/Berlin] ERROR: Missing required parameter: date
+[26-Jul-2025 04:05:50 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:05:51.017993"}
+[26-Jul-2025 04:05:50 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:05:51.017993
+)
+
+[26-Jul-2025 04:05:50 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:05:50 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:05:50 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:05:50 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:05:50 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:06:09 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:05:51.017993"}
+[26-Jul-2025 04:06:09 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:05:51.017993
+)
+
+[26-Jul-2025 04:06:09 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:06:09 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:06:09 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:06:09 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:06:09 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:06:18 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:05:51.017993"}
+[26-Jul-2025 04:06:18 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:05:51.017993
+)
+
+[26-Jul-2025 04:06:18 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:06:18 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:06:18 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:06:18 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:06:18 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:12:40 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:12:39.812774"}
+[26-Jul-2025 04:12:40 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:12:39.812774
+)
+
+[26-Jul-2025 04:12:40 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:12:40 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:12:40 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:12:40 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:12:40 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:17:47 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:17:47.553632"}
+[26-Jul-2025 04:17:47 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:17:47.553632
+)
+
+[26-Jul-2025 04:17:47 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:17:47 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:17:47 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:17:47 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:17:47 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:19:16 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25T00:00:00.000Z"}
+[26-Jul-2025 04:19:16 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25T00:00:00.000Z
+)
+
+[26-Jul-2025 04:19:16 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[26-Jul-2025 04:19:16 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:19:16 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:19:16 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 04:19:16 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 04:19:19 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-24T00:00:00.000Z"}
+[26-Jul-2025 04:19:19 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-24T00:00:00.000Z
+)
+
+[26-Jul-2025 04:19:19 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-24
+[26-Jul-2025 04:19:19 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:19:19 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:19:19 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 04:19:19 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-24","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 04:19:22 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-31T00:00:00.000Z"}
+[26-Jul-2025 04:19:22 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-31T00:00:00.000Z
+)
+
+[26-Jul-2025 04:19:22 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-31
+[26-Jul-2025 04:19:22 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:19:22 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:19:22 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 04:19:22 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-31","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 04:19:23 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-01T00:00:00.000Z"}
+[26-Jul-2025 04:19:23 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-01T00:00:00.000Z
+)
+
+[26-Jul-2025 04:19:23 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-01
+[26-Jul-2025 04:19:23 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:19:23 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:19:23 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 04:19:23 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-01","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 04:19:26 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 04:19:26 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 04:19:26 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:19:26 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:19:26 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:19:26 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:19:26 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:33:16 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:33:16.685554"}
+[26-Jul-2025 04:33:16 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:33:16.685554
+)
+
+[26-Jul-2025 04:33:16 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:33:16 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:33:16 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:33:16 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:33:16 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:38:53 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:38:53.713295"}
+[26-Jul-2025 04:38:53 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:38:53.713295
+)
+
+[26-Jul-2025 04:38:53 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:38:53 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:38:53 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:38:53 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:38:53 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:40:46 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25T00:00:00.000Z"}
+[26-Jul-2025 04:40:46 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25T00:00:00.000Z
+)
+
+[26-Jul-2025 04:40:46 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[26-Jul-2025 04:40:46 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:40:46 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:40:46 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 04:40:46 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 04:40:47 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 04:40:47 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 04:40:47 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:40:47 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:40:47 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:40:47 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:40:47 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:42:36 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:42:36.550535"}
+[26-Jul-2025 04:42:36 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:42:36.550535
+)
+
+[26-Jul-2025 04:42:36 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:42:36 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:42:36 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:42:36 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:42:36 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:53:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:53:15.181210"}
+[26-Jul-2025 04:53:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:53:15.181210
+)
+
+[26-Jul-2025 04:53:15 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:53:15 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:53:15 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:53:15 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:53:15 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:57:21 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:57:21.568187"}
+[26-Jul-2025 04:57:21 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:57:21.568187
+)
+
+[26-Jul-2025 04:57:21 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:57:21 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:57:21 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:57:21 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:57:21 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 04:59:34 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T10:59:34.766885"}
+[26-Jul-2025 04:59:34 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T10:59:34.766885
+)
+
+[26-Jul-2025 04:59:34 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 04:59:34 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 04:59:34 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 04:59:34 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 04:59:34 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:01:32 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:01:32.688383"}
+[26-Jul-2025 05:01:32 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:01:32.688383
+)
+
+[26-Jul-2025 05:01:32 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:01:32 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:01:32 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:01:32 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:01:32 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:02:55 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:02:55.642826"}
+[26-Jul-2025 05:02:55 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:02:55.642826
+)
+
+[26-Jul-2025 05:02:55 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:02:55 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:02:55 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:02:55 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:02:55 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:03:14 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:03:14.977295"}
+[26-Jul-2025 05:03:14 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:03:14.977295
+)
+
+[26-Jul-2025 05:03:14 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:03:14 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:03:14 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:03:14 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:03:14 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:06:30 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:06:30.616432"}
+[26-Jul-2025 05:06:30 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:06:30.616432
+)
+
+[26-Jul-2025 05:06:30 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:06:30 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:06:30 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:06:30 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:06:30 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:18:28 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:18:29.002315"}
+[26-Jul-2025 05:18:28 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:18:29.002315
+)
+
+[26-Jul-2025 05:18:28 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:18:28 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:18:28 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:18:29 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:18:29 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:20:44 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:20:44.785418"}
+[26-Jul-2025 05:20:44 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:20:44.785418
+)
+
+[26-Jul-2025 05:20:44 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:20:44 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:20:44 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:20:44 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:20:44 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:23:37 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:23:37.903445"}
+[26-Jul-2025 05:23:37 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:23:37.903445
+)
+
+[26-Jul-2025 05:23:37 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:23:37 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:23:37 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:23:37 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:23:37 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:26:20 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-21T00:00:00.000Z"}
+[26-Jul-2025 05:26:20 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-21T00:00:00.000Z
+)
+
+[26-Jul-2025 05:26:20 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-21
+[26-Jul-2025 05:26:20 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:26:20 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:26:20 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 05:26:20 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-21","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 05:26:22 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 05:26:22 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 05:26:22 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:26:22 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:26:22 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:26:22 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:26:22 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:26:35 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:26:35.616875"}
+[26-Jul-2025 05:26:35 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:26:35.616875
+)
+
+[26-Jul-2025 05:26:35 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:26:35 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:26:35 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:26:35 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:26:35 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:27:50 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-24T00:00:00.000Z"}
+[26-Jul-2025 05:27:50 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-24T00:00:00.000Z
+)
+
+[26-Jul-2025 05:27:50 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-24
+[26-Jul-2025 05:27:50 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:27:50 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:27:50 Europe/Berlin] Attendance records count: 0
+[26-Jul-2025 05:27:50 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-24","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[26-Jul-2025 05:27:51 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 05:27:51 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 05:27:51 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:27:51 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:27:51 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:27:51 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:27:51 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:29:42 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T11:29:42.460707"}
+[26-Jul-2025 05:29:42 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T11:29:42.460707
+)
+
+[26-Jul-2025 05:29:42 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:29:42 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:29:42 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:29:42 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:29:42 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[26-Jul-2025 05:29:44 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[26-Jul-2025 05:29:44 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[26-Jul-2025 05:29:44 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[26-Jul-2025 05:29:44 Europe/Berlin] Teacher subject assignment verified
+[26-Jul-2025 05:29:44 Europe/Berlin] Section name: Mangga
+[26-Jul-2025 05:29:44 Europe/Berlin] Attendance records count: 2
+[26-Jul-2025 05:29:44 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[29-Jul-2025 03:49:56 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-29T09:49:53.709152"}
+[29-Jul-2025 03:49:56 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-29T09:49:53.709152
+)
+
+[29-Jul-2025 03:49:56 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-29
+[29-Jul-2025 03:49:56 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 03:49:56 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 03:49:56 Europe/Berlin] Attendance records count: 0
+[29-Jul-2025 03:49:56 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-29","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[29-Jul-2025 03:50:00 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-28T00:00:00.000Z"}
+[29-Jul-2025 03:50:00 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-28T00:00:00.000Z
+)
+
+[29-Jul-2025 03:50:00 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-28
+[29-Jul-2025 03:50:00 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 03:50:00 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 03:50:00 Europe/Berlin] Attendance records count: 0
+[29-Jul-2025 03:50:00 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-28","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[29-Jul-2025 03:50:04 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[29-Jul-2025 03:50:04 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[29-Jul-2025 03:50:04 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[29-Jul-2025 03:50:04 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 03:50:04 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 03:50:04 Europe/Berlin] Attendance records count: 2
+[29-Jul-2025 03:50:04 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[29-Jul-2025 04:15:20 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-29T10:15:18.144233"}
+[29-Jul-2025 04:15:20 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-29T10:15:18.144233
+)
+
+[29-Jul-2025 04:15:20 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-29
+[29-Jul-2025 04:15:20 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 04:15:20 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 04:15:20 Europe/Berlin] Attendance records count: 2
+[29-Jul-2025 04:15:20 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-29","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"09:56:03","status":"present","date":"2025-07-29"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:55:42","status":"present","date":"2025-07-29"}]}],"attendance_count":2,"total_students":2}}
+[29-Jul-2025 04:15:55 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-28T00:00:00.000Z"}
+[29-Jul-2025 04:15:55 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-28T00:00:00.000Z
+)
+
+[29-Jul-2025 04:15:55 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-28
+[29-Jul-2025 04:15:55 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 04:15:55 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 04:15:55 Europe/Berlin] Attendance records count: 0
+[29-Jul-2025 04:15:55 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-28","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[29-Jul-2025 04:15:58 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[29-Jul-2025 04:15:58 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[29-Jul-2025 04:15:58 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[29-Jul-2025 04:15:58 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 04:15:58 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 04:15:58 Europe/Berlin] Attendance records count: 2
+[29-Jul-2025 04:15:58 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[29-Jul-2025 04:19:26 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25T00:00:00.000Z"}
+[29-Jul-2025 04:19:26 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25T00:00:00.000Z
+)
+
+[29-Jul-2025 04:19:26 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[29-Jul-2025 04:19:26 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 04:19:26 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 04:19:26 Europe/Berlin] Attendance records count: 0
+[29-Jul-2025 04:19:26 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[29-Jul-2025 04:19:27 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-26T00:00:00.000Z"}
+[29-Jul-2025 04:19:27 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-26T00:00:00.000Z
+)
+
+[29-Jul-2025 04:19:27 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-26
+[29-Jul-2025 04:19:27 Europe/Berlin] Teacher subject assignment verified
+[29-Jul-2025 04:19:27 Europe/Berlin] Section name: Mangga
+[29-Jul-2025 04:19:27 Europe/Berlin] Attendance records count: 2
+[29-Jul-2025 04:19:27 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-26","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"08:59:25","status":"present","date":"2025-07-26"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:15:18","status":"present","date":"2025-07-26"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 14:43:06 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T20:43:04.374915"}
+[13-Aug-2025 14:43:06 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T20:43:04.374915
+)
+
+[13-Aug-2025 14:43:06 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 14:43:06 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:06 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:06 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 14:43:06 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 14:43:17 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-05T00:00:00.000Z"}
+[13-Aug-2025 14:43:17 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-05T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:17 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-05
+[13-Aug-2025 14:43:17 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:17 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:17 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:17 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-05","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:19 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-06T00:00:00.000Z"}
+[13-Aug-2025 14:43:19 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-06T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:19 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-06
+[13-Aug-2025 14:43:19 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:19 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:19 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:19 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-06","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:19 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-07T00:00:00.000Z"}
+[13-Aug-2025 14:43:19 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-07T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:19 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-07
+[13-Aug-2025 14:43:19 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:19 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:19 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:19 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-07","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:21 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-03T00:00:00.000Z"}
+[13-Aug-2025 14:43:21 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-03T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:21 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-03
+[13-Aug-2025 14:43:21 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:21 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:21 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:21 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-03","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:22 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-04T00:00:00.000Z"}
+[13-Aug-2025 14:43:22 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-04T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:22 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-04
+[13-Aug-2025 14:43:22 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:22 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:22 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:22 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-04","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:24 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-28T00:00:00.000Z"}
+[13-Aug-2025 14:43:24 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-28T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:24 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-28
+[13-Aug-2025 14:43:24 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:24 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:24 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:24 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-28","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:25 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-29T00:00:00.000Z"}
+[13-Aug-2025 14:43:25 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-29T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:25 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-29
+[13-Aug-2025 14:43:25 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:25 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:25 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 14:43:25 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-29","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"09:56:03","status":"present","date":"2025-07-29"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:55:42","status":"present","date":"2025-07-29"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 14:43:27 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-30T00:00:00.000Z"}
+[13-Aug-2025 14:43:27 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-30T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:27 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-30
+[13-Aug-2025 14:43:27 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:27 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:27 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:27 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-30","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:31 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 14:43:31 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:31 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 14:43:31 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:31 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:31 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 14:43:31 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 14:43:32 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 14:43:32 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:32 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 14:43:32 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:32 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:32 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 14:43:32 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 14:43:32 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 14:43:32 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 14:43:32 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 14:43:32 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:43:32 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:43:32 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 14:43:32 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 14:46:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T20:46:12.743590"}
+[13-Aug-2025 14:46:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T20:46:12.743590
+)
+
+[13-Aug-2025 14:46:15 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 14:46:15 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 14:46:15 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 14:46:15 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 14:46:15 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:03:18 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:03:15.910271"}
+[13-Aug-2025 15:03:18 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:03:15.910271
+)
+
+[13-Aug-2025 15:03:18 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:03:18 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:03:18 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:03:18 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:03:18 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:03:29 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:03:27.318664"}
+[13-Aug-2025 15:03:29 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:03:27.318664
+)
+
+[13-Aug-2025 15:03:29 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:03:29 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:03:29 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:03:29 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:03:29 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:04:12 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-14T00:00:00.000Z"}
+[13-Aug-2025 15:04:12 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-14T00:00:00.000Z
+)
+
+[13-Aug-2025 15:04:12 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-14
+[13-Aug-2025 15:04:12 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:04:12 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:04:12 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 15:04:12 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-14","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 15:04:13 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 15:04:13 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 15:04:13 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:04:13 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:04:13 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:04:13 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:04:13 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:06:59 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-14T00:00:00.000Z"}
+[13-Aug-2025 15:06:59 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-14T00:00:00.000Z
+)
+
+[13-Aug-2025 15:06:59 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-14
+[13-Aug-2025 15:06:59 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:06:59 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:06:59 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 15:06:59 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-14","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 15:07:02 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 15:07:02 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 15:07:02 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 15:07:02 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:07:02 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:07:02 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 15:07:02 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 15:07:03 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 15:07:03 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 15:07:03 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:07:03 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:07:03 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:07:03 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:07:03 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:09:34 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 15:09:34 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 15:09:34 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 15:09:34 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:09:34 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:09:34 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 15:09:34 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 15:09:35 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 15:09:35 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 15:09:35 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:09:35 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:09:35 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:09:35 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:09:35 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:10:10 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:10:07.858461"}
+[13-Aug-2025 15:10:10 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:10:07.858461
+)
+
+[13-Aug-2025 15:10:10 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:10:10 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:10:10 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:10:10 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:10:10 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:28:35 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:28:32.860515"}
+[13-Aug-2025 15:28:35 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:28:32.860515
+)
+
+[13-Aug-2025 15:28:35 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:28:35 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:28:35 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:28:35 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:28:35 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:34:19 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:34:16.872239"}
+[13-Aug-2025 15:34:19 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:34:16.872239
+)
+
+[13-Aug-2025 15:34:19 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:34:19 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:34:19 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:34:19 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:34:19 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:38:05 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:38:03.204181"}
+[13-Aug-2025 15:38:05 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:38:03.204181
+)
+
+[13-Aug-2025 15:38:05 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:38:05 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:38:05 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:38:05 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:38:05 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:44:53 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:44:51.298144"}
+[13-Aug-2025 15:44:53 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:44:51.298144
+)
+
+[13-Aug-2025 15:44:53 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:44:53 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:44:53 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:44:53 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:44:53 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:51:16 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:51:14.452635"}
+[13-Aug-2025 15:51:16 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:51:14.452635
+)
+
+[13-Aug-2025 15:51:16 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:51:16 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:51:16 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:51:16 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:51:16 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 15:59:09 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T21:59:07.546538"}
+[13-Aug-2025 15:59:09 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T21:59:07.546538
+)
+
+[13-Aug-2025 15:59:09 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 15:59:09 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 15:59:09 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 15:59:09 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 15:59:09 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:01:43 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T22:01:41.225679"}
+[13-Aug-2025 16:01:43 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T22:01:41.225679
+)
+
+[13-Aug-2025 16:01:43 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:01:43 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:01:43 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:01:43 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:01:43 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:22:10 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T22:22:07.969114"}
+[13-Aug-2025 16:22:10 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T22:22:07.969114
+)
+
+[13-Aug-2025 16:22:10 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:22:10 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:22:10 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:22:10 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:22:10 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:26:06 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T22:26:03.878049"}
+[13-Aug-2025 16:26:06 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T22:26:03.878049
+)
+
+[13-Aug-2025 16:26:06 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:26:06 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:26:06 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:26:06 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:26:06 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:32:33 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T22:32:31.596283"}
+[13-Aug-2025 16:32:33 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T22:32:31.596283
+)
+
+[13-Aug-2025 16:32:33 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:32:33 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:33 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:33 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:32:33 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:32:43 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-14T00:00:00.000Z"}
+[13-Aug-2025 16:32:43 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-14T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:43 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-14
+[13-Aug-2025 16:32:43 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:43 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:43 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:32:43 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-14","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:32:45 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 16:32:45 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:45 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 16:32:45 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:45 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:45 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:32:45 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:32:46 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:32:46 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:46 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:32:46 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:46 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:46 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:32:46 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:32:47 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 16:32:47 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:47 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 16:32:47 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:47 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:47 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:32:47 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:32:48 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:32:48 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:48 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:32:48 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:48 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:48 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:32:48 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:32:49 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-15T00:00:00.000Z"}
+[13-Aug-2025 16:32:49 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-15T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:49 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-15
+[13-Aug-2025 16:32:49 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:49 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:49 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:32:49 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-15","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:32:50 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:32:50 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:50 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:32:50 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:50 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:50 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:32:50 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:32:51 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-11T00:00:00.000Z"}
+[13-Aug-2025 16:32:51 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-11T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:51 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-11
+[13-Aug-2025 16:32:51 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:51 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:51 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:32:51 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-11","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:32:52 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:32:52 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:32:52 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:32:52 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:32:52 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:32:52 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:32:52 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:36:38 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-14T00:00:00.000Z"}
+[13-Aug-2025 16:36:38 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-14T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:38 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-14
+[13-Aug-2025 16:36:38 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:38 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:38 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:36:38 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-14","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:36:39 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 16:36:39 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:39 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 16:36:39 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:39 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:39 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:36:39 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:36:40 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:36:40 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:40 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:36:40 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:40 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:40 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:36:40 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:36:40 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-15T00:00:00.000Z"}
+[13-Aug-2025 16:36:40 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-15T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:40 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-15
+[13-Aug-2025 16:36:40 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:40 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:40 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:36:40 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-15","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:36:41 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:36:41 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:41 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:36:41 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:41 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:41 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:36:41 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:36:41 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-11T00:00:00.000Z"}
+[13-Aug-2025 16:36:41 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-11T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:41 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-11
+[13-Aug-2025 16:36:41 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:41 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:41 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:36:41 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-11","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:36:48 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-28T00:00:00.000Z"}
+[13-Aug-2025 16:36:48 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-28T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:48 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-28
+[13-Aug-2025 16:36:48 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:48 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:48 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:36:48 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-28","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:36:49 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-29T00:00:00.000Z"}
+[13-Aug-2025 16:36:49 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-29T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:49 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-29
+[13-Aug-2025 16:36:49 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:49 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:49 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:36:49 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-29","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"09:56:03","status":"present","date":"2025-07-29"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:55:42","status":"present","date":"2025-07-29"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:36:52 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-25T00:00:00.000Z"}
+[13-Aug-2025 16:36:52 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-25T00:00:00.000Z
+)
+
+[13-Aug-2025 16:36:52 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-25
+[13-Aug-2025 16:36:52 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:36:52 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:36:52 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:36:52 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-25","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:39:46 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-01T00:00:00.000Z"}
+[13-Aug-2025 16:39:46 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-01T00:00:00.000Z
+)
+
+[13-Aug-2025 16:39:46 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-01
+[13-Aug-2025 16:39:46 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:39:46 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:39:46 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:39:46 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-01","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:39:49 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-29T00:00:00.000Z"}
+[13-Aug-2025 16:39:49 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-29T00:00:00.000Z
+)
+
+[13-Aug-2025 16:39:49 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-29
+[13-Aug-2025 16:39:49 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:39:49 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:39:49 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:39:49 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-29","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"09:56:03","status":"present","date":"2025-07-29"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:55:42","status":"present","date":"2025-07-29"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:39:58 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:39:58 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:39:58 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:39:58 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:39:58 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:39:58 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:39:58 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:46:22 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T22:46:19.732374"}
+[13-Aug-2025 16:46:22 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T22:46:19.732374
+)
+
+[13-Aug-2025 16:46:22 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:46:22 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:46:22 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:46:22 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:46:22 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:46:29 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:46:29 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:46:29 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:46:29 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:46:29 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:46:29 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:46:29 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:46:30 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-14T00:00:00.000Z"}
+[13-Aug-2025 16:46:30 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-14T00:00:00.000Z
+)
+
+[13-Aug-2025 16:46:30 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-14
+[13-Aug-2025 16:46:30 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:46:30 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:46:30 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:46:30 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-14","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:46:31 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:46:31 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:46:31 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:46:31 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:46:31 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:46:31 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:46:31 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[13-Aug-2025 16:46:32 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-12T00:00:00.000Z"}
+[13-Aug-2025 16:46:32 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-12T00:00:00.000Z
+)
+
+[13-Aug-2025 16:46:32 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-12
+[13-Aug-2025 16:46:32 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:46:32 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:46:32 Europe/Berlin] Attendance records count: 0
+[13-Aug-2025 16:46:32 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-12","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[13-Aug-2025 16:46:33 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13T00:00:00.000Z"}
+[13-Aug-2025 16:46:33 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13T00:00:00.000Z
+)
+
+[13-Aug-2025 16:46:33 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[13-Aug-2025 16:46:33 Europe/Berlin] Teacher subject assignment verified
+[13-Aug-2025 16:46:33 Europe/Berlin] Section name: Mangga
+[13-Aug-2025 16:46:33 Europe/Berlin] Attendance records count: 2
+[13-Aug-2025 16:46:33 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:23:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-17"}
+[17-Aug-2025 16:23:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-17
+)
+
+[17-Aug-2025 16:23:15 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-17
+[17-Aug-2025 16:23:15 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:23:15 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:23:15 Europe/Berlin] Attendance records count: 0
+[17-Aug-2025 16:23:15 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-17","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[17-Aug-2025 16:23:33 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-07-29"}
+[17-Aug-2025 16:23:33 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-07-29
+)
+
+[17-Aug-2025 16:23:33 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-07-29
+[17-Aug-2025 16:23:33 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:23:33 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:23:33 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:23:33 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-07-29","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"09:56:03","status":"present","date":"2025-07-29"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"09:55:42","status":"present","date":"2025-07-29"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:29:57 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-17","start_date":null,"end_date":null}
+[17-Aug-2025 16:29:57 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-17
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:29:57 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-17
+[17-Aug-2025 16:29:57 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:29:57 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:29:57 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:29:57 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-17","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"22:27:33","status":"present","date":"2025-08-17"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"22:27:41","status":"present","date":"2025-08-17"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:30:06 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-17","start_date":null,"end_date":null}
+[17-Aug-2025 16:30:06 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-17
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:30:06 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-17
+[17-Aug-2025 16:30:06 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:30:06 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:30:06 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:30:06 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-17","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"22:27:33","status":"present","date":"2025-08-17"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"22:27:41","status":"present","date":"2025-08-17"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:30:19 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-17","start_date":null,"end_date":null}
+[17-Aug-2025 16:30:19 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-17
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:30:19 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-17
+[17-Aug-2025 16:30:19 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:30:19 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:30:19 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:30:19 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-17","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"22:27:33","status":"present","date":"2025-08-17"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"22:27:41","status":"present","date":"2025-08-17"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:30:27 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-17","start_date":null,"end_date":null}
+[17-Aug-2025 16:30:27 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-17
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:30:27 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-17
+[17-Aug-2025 16:30:27 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:30:27 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:30:27 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:30:27 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-17","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"22:27:33","status":"present","date":"2025-08-17"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"22:27:41","status":"present","date":"2025-08-17"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:30:30 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":null,"start_date":"2025-08-11","end_date":"2025-08-17"}
+[17-Aug-2025 16:30:30 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 
+    [start_date] => 2025-08-11
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:30:30 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:30:41 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":null,"start_date":"2025-08-11","end_date":"2025-08-17"}
+[17-Aug-2025 16:30:41 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 
+    [start_date] => 2025-08-11
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:30:41 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:30:43 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-13","start_date":null,"end_date":null}
+[17-Aug-2025 16:30:43 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-13
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:30:43 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-13
+[17-Aug-2025 16:30:43 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:30:43 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:30:43 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:30:43 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-13","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"20:42:41","status":"present","date":"2025-08-13"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"20:42:36","status":"present","date":"2025-08-13"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:37:06 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-17","start_date":null,"end_date":null}
+[17-Aug-2025 16:37:06 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-17
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:37:06 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-17
+[17-Aug-2025 16:37:06 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:37:06 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:37:06 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:37:06 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-17","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":true,"records":[{"time_in":"22:27:33","status":"present","date":"2025-08-17"}]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":true,"records":[{"time_in":"22:27:41","status":"present","date":"2025-08-17"}]}],"attendance_count":2,"total_students":2}}
+[17-Aug-2025 16:37:15 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"date":"2025-08-11","start_date":null,"end_date":null}
+[17-Aug-2025 16:37:15 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [date] => 2025-08-11
+    [start_date] => 
+    [end_date] => 
+)
+
+[17-Aug-2025 16:37:15 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Date: 2025-08-11
+[17-Aug-2025 16:37:15 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:37:15 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:37:15 Europe/Berlin] Attendance records count: 0
+[17-Aug-2025 16:37:15 Europe/Berlin] Final response prepared: {"success":true,"data":{"section":{"id":13,"name":"Mangga","subject_id":67},"date":"2025-08-11","students":[{"student_id":130,"name":"Marvita Yadan","lrn":"103109590012","rfid":"0013340964","present":false,"records":[]},{"student_id":133,"name":"Daniel Corpuz","lrn":"103109590020","rfid":"0013307749","present":false,"records":[]}],"attendance_count":0,"total_students":2}}
+[17-Aug-2025 16:37:57 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":null}
+[17-Aug-2025 16:37:57 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 
+)
+
+[17-Aug-2025 16:37:57 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:38:02 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":"2025-08-17"}
+[17-Aug-2025 16:38:02 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:38:02 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:38:04 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":null}
+[17-Aug-2025 16:38:04 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 
+)
+
+[17-Aug-2025 16:38:04 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:38:22 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":"2025-08-17"}
+[17-Aug-2025 16:38:22 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:38:22 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:38:25 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":null}
+[17-Aug-2025 16:38:25 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 
+)
+
+[17-Aug-2025 16:38:25 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:38:37 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-15","end_date":null}
+[17-Aug-2025 16:38:37 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-15
+    [end_date] => 
+)
+
+[17-Aug-2025 16:38:37 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:38:52 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-15","end_date":"2025-08-15"}
+[17-Aug-2025 16:38:52 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-15
+    [end_date] => 2025-08-15
+)
+
+[17-Aug-2025 16:38:52 Europe/Berlin] ERROR: Missing required parameter: date
+[17-Aug-2025 16:45:24 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":null}
+[17-Aug-2025 16:45:24 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 
+)
+
+[17-Aug-2025 16:45:24 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Start Date: 2025-08-17, End Date: 2025-08-17
+[17-Aug-2025 16:45:24 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:45:24 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:45:24 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:45:24 Europe/Berlin] Final response prepared: {"success":true,"records":[{"id":11,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-17","time":"22:27:41","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":10,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-17","time":"22:27:33","status":"present","lrn":"103109590012","rfid":"0013340964"}],"section":{"id":13,"name":"Mangga"},"subject":{"id":67},"date_range":{"start":"2025-08-17","end":"2025-08-17"}}
+[17-Aug-2025 16:45:51 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":"2025-08-17"}
+[17-Aug-2025 16:45:51 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:45:51 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Start Date: 2025-08-17, End Date: 2025-08-17
+[17-Aug-2025 16:45:51 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:45:51 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:45:51 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:45:51 Europe/Berlin] Final response prepared: {"success":true,"records":[{"id":11,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-17","time":"22:27:41","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":10,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-17","time":"22:27:33","status":"present","lrn":"103109590012","rfid":"0013340964"}],"section":{"id":13,"name":"Mangga"},"subject":{"id":67},"date_range":{"start":"2025-08-17","end":"2025-08-17"}}
+[17-Aug-2025 16:46:03 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":"2025-08-17"}
+[17-Aug-2025 16:46:03 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:46:03 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13, Start Date: 2025-08-17, End Date: 2025-08-17
+[17-Aug-2025 16:46:03 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:46:03 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:46:03 Europe/Berlin] Attendance records count: 2
+[17-Aug-2025 16:46:03 Europe/Berlin] Final response prepared: {"success":true,"records":[{"id":11,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-17","time":"22:27:41","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":10,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-17","time":"22:27:33","status":"present","lrn":"103109590012","rfid":"0013340964"}],"section":{"id":13,"name":"Mangga"},"subject":{"id":67},"date_range":{"start":"2025-08-17","end":"2025-08-17"}}
+[17-Aug-2025 16:48:36 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":null}
+[17-Aug-2025 16:48:36 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 
+)
+
+[17-Aug-2025 16:48:36 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13
+[17-Aug-2025 16:48:36 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:48:36 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:48:36 Europe/Berlin] Attendance records count: 8
+[17-Aug-2025 16:48:36 Europe/Berlin] Final response prepared: {"success":true,"records":[{"id":11,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-17","time":"22:27:41","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":10,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-17","time":"22:27:33","status":"present","lrn":"103109590012","rfid":"0013340964"},{"id":9,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-13","time":"20:42:41","status":"present","lrn":"103109590012","rfid":"0013340964"},{"id":8,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-13","time":"20:42:36","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":7,"student_id":130,"student_name":"Marvita Yadan","date":"2025-07-29","time":"09:56:03","status":"present","lrn":"103109590012","rfid":"0013340964"},{"id":6,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-07-29","time":"09:55:42","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":2,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-07-26","time":"09:15:18","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":1,"student_id":130,"student_name":"Marvita Yadan","date":"2025-07-26","time":"08:59:25","status":"present","lrn":"103109590012","rfid":"0013340964"}],"section":{"id":13,"name":"Mangga"},"subject":{"id":67}}
+[17-Aug-2025 16:48:43 Europe/Berlin] Raw input received: {"teacher_id":"253520","subject_id":67,"section_id":13,"start_date":"2025-08-17","end_date":"2025-08-17"}
+[17-Aug-2025 16:48:43 Europe/Berlin] Decoded input data: Array
+(
+    [teacher_id] => 253520
+    [subject_id] => 67
+    [section_id] => 13
+    [start_date] => 2025-08-17
+    [end_date] => 2025-08-17
+)
+
+[17-Aug-2025 16:48:43 Europe/Berlin] Sanitized parameters - Teacher ID: 253520, Subject ID: 67, Section ID: 13
+[17-Aug-2025 16:48:43 Europe/Berlin] Teacher subject assignment verified
+[17-Aug-2025 16:48:43 Europe/Berlin] Section name: Mangga
+[17-Aug-2025 16:48:43 Europe/Berlin] Attendance records count: 8
+[17-Aug-2025 16:48:43 Europe/Berlin] Final response prepared: {"success":true,"records":[{"id":11,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-17","time":"22:27:41","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":10,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-17","time":"22:27:33","status":"present","lrn":"103109590012","rfid":"0013340964"},{"id":9,"student_id":130,"student_name":"Marvita Yadan","date":"2025-08-13","time":"20:42:41","status":"present","lrn":"103109590012","rfid":"0013340964"},{"id":8,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-08-13","time":"20:42:36","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":7,"student_id":130,"student_name":"Marvita Yadan","date":"2025-07-29","time":"09:56:03","status":"present","lrn":"103109590012","rfid":"0013340964"},{"id":6,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-07-29","time":"09:55:42","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":2,"student_id":133,"student_name":"Daniel Corpuz","date":"2025-07-26","time":"09:15:18","status":"present","lrn":"103109590020","rfid":"0013307749"},{"id":1,"student_id":130,"student_name":"Marvita Yadan","date":"2025-07-26","time":"08:59:25","status":"present","lrn":"103109590012","rfid":"0013340964"}],"section":{"id":13,"name":"Mangga"},"subject":{"id":67}}
